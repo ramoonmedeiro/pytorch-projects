@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pytorch-projects"
+version = "0.1.0"
+description = ""
+authors = ["Ramon Medeiro <r.medeiro10@gmail.com>"]
+readme = "README.md"
+packages = [{include = "pytorch_projects"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^2.0.0"
+scikit-learn = "^1.2.2"
+pandas = "^2.0.1"
+numpy = "^1.24.3"
+mysql-connector-python = "^8.0.33"
+torchinfo = "^1.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
